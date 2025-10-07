@@ -99,15 +99,10 @@
       transition: background-color 0.3s ease;
     }
 
-    .aboutUsCard{
-      background: #12c2e9;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
+    /* .aboutUsCard{
+    } */
     .project1card{
-      background: #FEAC5E;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to left, #2ba2e1, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to left, #2ba2e1, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
     }
     .project2card{
       background: #FDC830;  /* fallback for old browsers */
@@ -120,9 +115,7 @@
       background: linear-gradient(to left, #aaddff, #6DD5FA, #3692cf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
     .project4card{
-      background: #12c2e9;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to top, #ff8533, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to top, #ff8533, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
     }
 
     #loader { 
@@ -243,12 +236,13 @@
   <section id="about" class="container my-5">
     <div class="row justify-content-center">
       <div class="col-lg text-center">
-        <div class="card border-light shadow-sm aboutUsCard text-white">
+        <div class="card border-light shadow-sm aboutUsCard">
           <div class="card-body">
             <p class="display-2 my-5 p-2">About Us</p>
-            <p class="fs-2 m-md-5 px-md-4">Apex is dedicated to redefining modern living with innovative, elegant, and sustainable residential projects.
-              Our commitment to quality, customer satisfaction, and architectural excellence sets us apart in the real estate industry. 
-              With a passion for creating vibrant communities, we strive to deliver homes that inspire and enrich lives.</p>
+            <p class="fs-2 m-md-5 px-md-4">Apex is dedicated to redefining modern living with innovative, 
+              elegant, and sustainable residential projects. Our commitment to quality, customer satisfaction, 
+              and architectural excellence sets us apart in the real estate industry. With a passion for creating 
+              vibrant communities, we strive to deliver homes that inspire and enrich lives.</p>
           </div>
         </div>
       </div>
@@ -256,7 +250,7 @@
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="container my-5 py-5">
+  <section id="projects" class="container mt-5 py-2">
     <div class="row justify-content-center mb-4">
       <div class="col-lg-8 text-center">
         <h1 class="display-2 mt-5 mb-2">Our Projects</h1>
